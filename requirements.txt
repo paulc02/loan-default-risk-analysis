@@ -1,4 +1,9 @@
 pandas
 sqlalchemy
 psycopg2-binary
-python-dotenv
+python-dotenvjupyter
+ipykernel
+scikit-learn
+lightgbm
+matplotlib
+seaborn
