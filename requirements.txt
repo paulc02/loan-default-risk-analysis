@@ -1,7 +1,8 @@
 pandas
 sqlalchemy
 psycopg2-binary
-python-dotenvjupyter
+python-dotenv
+jupyter
 ipykernel
 scikit-learn
 lightgbm
