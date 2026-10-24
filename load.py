@@ -29,7 +29,7 @@ existing = set(inspect(engine).get_table_names())
 for name in files:
     table = name.lower()
     if table in existing:
-        print("sar peste (exista deja):", name)
+        print("skipping (already exists):", name)
         continue
 
     path = folder / f"{name}.csv"
