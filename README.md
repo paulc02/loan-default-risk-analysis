@@ -27,7 +27,7 @@ An end-to-end analytics project on **307,511 loan applicants** from the [Home Cr
 
 ```
 Raw CSVs  ->  PostgreSQL  ->  SQL analysis  ->  customer_features  ->  Modeling  ->  customer_scores  ->  Tableau
- (Kaggle)      load.py        sql/02 - 06        sql/07 (1 row/       notebooks/     (out-of-fold        dashboard
+ (Kaggle)      load.py        sql/01 - 06        sql/07 (1 row/       notebooks/     (out-of-fold        dashboard
                                                   client, 29 cols)    modeling       risk scores)
 ```
 
