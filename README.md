@@ -117,7 +117,3 @@ jupyter notebook notebooks/modeling.ipynb
 - **The cut-off ignores money.** The business scenario counts clients, not amounts. Including interest income and loss per default would allow a cost-based threshold.
 - **Fairness.** Gender is predictive in the model but should not be used directly in real credit decisions because of regulatory and fairness concerns.
 - **Next steps:** hyperparameter tuning, SHAP explanations, and additional features from `bureau_balance` and the monthly history tables.
-
-## Author
-
-**paulc02**: [GitHub](https://github.com/paulc02)
