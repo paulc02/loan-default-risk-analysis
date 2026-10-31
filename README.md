@@ -4,7 +4,7 @@ End-to-end analysis of loan default risk on the [Home Credit Default Risk](https
 
 > **TODO:** add 1–2 sentences on the business question (e.g. "Which applicants are most likely to default, and which factors drive that risk?") and a screenshot or GIF of the dashboard here.
 
-![Dashboard preview]([docs/dashboard.png](https://public.tableau.com/views/loan-default-risk-dashboard/Portfoliooverview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)) 
+[Dashboard preview](https://public.tableau.com/views/loan-default-risk-dashboard/Portfoliooverview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Key results
 
