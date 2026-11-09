@@ -4,6 +4,8 @@ An end-to-end analytics project on **307,511 loan applicants** from the [Home Cr
 
 **[View the live dashboard on Tableau Public](https://public.tableau.com/views/loan-default-risk-dashboard/Portfoliooverview)**
 
+![Tableau dashboard: portfolio overview](docs/img/dashboard-portfolio-overview.png)
+
 ## Business questions answered
 
 1. **Who defaults, and where is risk concentrated?** Default rate across demographic, loan and credit-history segments.
@@ -22,6 +24,18 @@ An end-to-end analytics project on **307,511 loan applicants** from the [Home Cr
 - **Rejecting the riskiest 10% of applicants avoids about 35% of all defaults while losing under 8% of good clients.** The default rate is 28.2% among rejected applicants versus 5.8% among approved ones.
 
 <!-- Interest income lost on rejected clients and loss per default are not modeled, so the final cut-off is a business decision. -->
+
+## Dashboard
+
+The Tableau dashboard has three pages, from portfolio overview to model results. **[Open it on Tableau Public](https://public.tableau.com/views/loan-default-risk-dashboard/Portfoliooverview)** to filter and explore.
+
+**Risk drivers:** underpayment behavior, age and external credit scores.
+
+![Tableau dashboard: risk drivers](docs/img/dashboard-risk-drivers.png)
+
+**Model results:** the rejection trade-off curve, default rate by risk group and feature importance.
+
+![Tableau dashboard: model results](docs/img/dashboard-model-results.png)
 
 ## Workflow
 
@@ -42,7 +56,8 @@ Raw CSVs  ->  PostgreSQL  ->  SQL analysis  ->  customer_features  ->  Modeling 
 
 ```
 loan-default-risk-analysis/
-├── dashboard/          # Dashboard files
+├── dashboard/          # Tableau workbook (dashboard.twb)
+├── docs/img/           # Dashboard screenshots used in this README
 ├── modeling_exports/   # Model outputs used by the dashboard (metrics, ROC points, feature importance, business scenario)
 ├── notebooks/
 │   └── modeling.ipynb  # Cleaning, modeling, evaluation, interpretation, business scenario
